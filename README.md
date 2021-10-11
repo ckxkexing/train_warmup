@@ -62,3 +62,4 @@ model_train_warmup
 
 2、bs=1在googleNet做图像分类任务上行不通，可以发现模型根本就没有收敛。
 
+3、添加了l1-norm，从精度结果上来看，没有太大的影响。
